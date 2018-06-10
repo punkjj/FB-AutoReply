@@ -29,12 +29,6 @@ class punkjj(Client):
             reply = "Idling, I'm a bot afterall. I work for my creator, Pankaj Sheoran (www.punkjj.cf)"
         elif("bye" in msgText or msgText=="byye" or msgText=="byee"):
             reply = "Ok bye! :D"
-        elif("acha" in msgText or msgText=="mast hun" or msgText=="mast hu" or msgText=="mst hu" or msgText=="mst hun" or "theek" in msgText or "thik" in msgText):
-            reply = "Chal accha hai"
-        elif("bura" in msgText or "bad" in msgText or "kharab" in msgText):
-            reply = " :( "
-        elif("kyu" in msgText):
-            reply = "Kyu kya? Sorry, I'm a bot and I can't fully understand English/Hindi yet."
         else:
             reply = "Thank you for contacting me. I'm currently not online, I was replying using a Python Script. I will reach out to you shortly."
         def sendMsgg():
